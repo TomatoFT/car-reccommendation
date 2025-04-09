@@ -2,7 +2,7 @@ import torch
 from torch.utils.data import Dataset
 import numpy as np
 from typing import Tuple
-from ..config import CATEGORICAL_FEATURES, NUMERIC_FEATURES
+from .config import CATEGORICAL_FEATURES, NUMERIC_FEATURES
 
 class VehicleDataset(Dataset):
     """Dataset cho dữ liệu xe hơi."""
