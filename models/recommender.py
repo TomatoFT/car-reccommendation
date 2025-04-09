@@ -2,8 +2,8 @@ import torch
 import pandas as pd
 from typing import List, Dict
 import logging
-from .model import VehicleEmbeddingModel
-from ..data.data_processor import DataProcessor
+from model import VehicleEmbeddingModel
+from data.data_processor import DataProcessor
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

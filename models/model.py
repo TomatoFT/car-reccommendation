@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from typing import List
-from ..config import MODEL_CONFIG
+from config import MODEL_CONFIG
 
 class VehicleEmbeddingModel(nn.Module):
     """Mô hình embedding cho xe hơi."""
